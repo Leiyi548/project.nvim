@@ -147,7 +147,7 @@ local function projectGrep(opts)
 
   pickers
     .new(opts, {
-      prompt_title = "Recent Projects",
+      prompt_title = "Recent Projects(Grep)",
       finder = create_finder(),
       previewer = false,
       sorter = telescope_config.generic_sorter(opts),

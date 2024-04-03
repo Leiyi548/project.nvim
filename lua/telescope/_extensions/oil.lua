@@ -135,7 +135,7 @@ local function oilProjects(opts)
 
   pickers
     .new(opts, {
-      prompt_title = "Oil Project",
+      prompt_title = "Oil Project(Oil)",
       finder = create_finder(),
       previewer = false,
       sorter = telescope_config.generic_sorter(opts),

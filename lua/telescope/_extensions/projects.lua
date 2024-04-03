@@ -147,7 +147,7 @@ local function projects(opts)
 
   pickers
     .new(opts, {
-      prompt_title = "Recent Projects",
+      prompt_title = "Recent Projects(find_file)",
       finder = create_finder(),
       previewer = false,
       sorter = telescope_config.generic_sorter(opts),
