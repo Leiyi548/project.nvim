@@ -101,6 +101,7 @@ end
 local function search_in_project_files(prompt_bufnr)
   local project_path, cd_successful = change_working_directory(prompt_bufnr, true)
   local opt = {
+    prompt_title = vim.uv.cwd(),
     cwd = project_path,
     hidden = config.options.show_hidden,
     mode = "insert",
